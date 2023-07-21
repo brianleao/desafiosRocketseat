@@ -44,20 +44,24 @@ main{
   gap: 60px;
 }
 
-.my-projects {
+.top{
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 30px;
   background: var(--bg-cards);
   color: var(--text-color);
   border-radius: 10px;
+  text-decoration: none;
 }
 
-  .my-projects a {
-  text-decoration: none;
+.top p{
   font-size: 14px;
   color: var(--text-color);
+}
+
+.top:hover {
+  background: var(--bg-cards-hover);
 }
 
 .profile {
@@ -68,10 +72,6 @@ main{
   background:var(--bg-cards);
   border-radius: 10px;
   padding: 32px 49px 49px;
-}
-
-.profile:hover {
-  background: var(--bg-cards-hover);
 }
 
 .profile img{ 
@@ -146,18 +146,17 @@ main{
   max-width: 20px;
 }
 
-.top {
-  display: flex;
-  flex-direction: column;
-  gap: 31px;
-}
-
-.mid p {
+.mid {
   background: var(--bg-cards);
   padding: 30px;
   font-size: 20px;
   color: var(--text-color);
   border-radius: 10px;
+  text-decoration: none;
+}
+
+.mid:hover {
+  background: var(--bg-cards-hover);
 }
 
 .down {
