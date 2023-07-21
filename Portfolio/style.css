@@ -70,6 +70,10 @@ main{
   padding: 32px 49px 49px;
 }
 
+.profile:hover {
+  background: var(--bg-cards-hover);
+}
+
 .profile img{ 
   margin: auto;
   width: 100%;
@@ -254,6 +258,124 @@ main{
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.technologies {
+  background: var(--bg-cards);
+  color: var(--text-color);
+  padding: 30px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.technologies h2 {
+  padding-bottom: 20px;
+}
+
+/*
+.technologies table {
+  background: var(--bg-techs);
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+}
+*/
+
+.line1{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.line1 span {
+  background: var(--bg-techs);
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 6px 7px;
+  width: 100%;
+  max-width: 86px;
+  text-align: center;
+}
+
+.line2{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.line2 span {
+  background: var(--bg-techs);
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 6px 7px;
+  width: 100%;
+  max-width: 86px;
+  text-align: center;
+}
+
+.line3{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.line3 span {
+  background: var(--bg-techs);
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 6px 7px;
+  width: 100%;
+  max-width: 86px;
+  text-align: center;
+}
+
+.experiences {
+  background: var(--bg-cards);
+  color: var(--text-color);
+  padding: 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experiences ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.education {
+  background: var(--bg-cards);
+  color: var(--text-color);
+  padding: 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.education ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+footer {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 14px;
 }
 
 @media (min-width: 700px) {
