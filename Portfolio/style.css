@@ -24,12 +24,12 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 100%;
+  width: auto;
   max-width: 348px;
 }
 
 main{
-  width: 100%;
+  width: auto;
   max-width: 952px;
 }
 
@@ -104,7 +104,7 @@ main{
 .project1 {
   color: var(--text-color);
   background: var(--bg-cards);
-  width: 100%;
+  width: auto;
   max-width: 461px;
   padding: 30px;
   border-radius: 10px;
@@ -131,6 +131,7 @@ main{
 
 .space-in{
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
 }
@@ -142,7 +143,7 @@ main{
 }
 
 .project1 img {
-  width: 100%;
+  width: auto;
   max-width: 20px;
 }
 
@@ -206,7 +207,7 @@ main{
   background: var(--bg-cards);
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   max-width: 348px;
   padding: 30px 40px;
   gap: 20px;
