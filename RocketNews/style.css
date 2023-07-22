@@ -4,21 +4,6 @@
   box-sizing: border-box;
 }
 
-/*
-main {
-  float: right;
-}
-
-main img {
-  width: 100%;
-  max-width: 1175px;
-}
-*/
-
-.container {
-  display: flex;
-}
-
 :root {
   --body-bg-color: #121214;
   --text-color: #E1E1E6;
@@ -27,17 +12,29 @@ main img {
   --bg-button-color: #8257e5;
 }
 
-#background {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 50%;
-    height: 100%;
-    background: black;
-    z-index: 1;
+body {
+  background: var(--body-bg-color);
 }
 
 img {
-  width: 100%;
-  float: right;
+width: auto;
+max-width: 1175px;
+height: 100vh;
+float: right;
+}
+
+.container {
+  padding: 50px 30px;
+  display: flex;
+  position: absolute;
+  background: var(--body-bg-color);
+  width: 50%;
+  height: 100vh;
+}
+
+.logo img {
+  width: auto;
+  max-width: 389px;
+  max-height: auto;
+  height: 94px;
 }
