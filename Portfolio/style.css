@@ -76,7 +76,7 @@ main{
 
 .profile img{ 
   margin: auto;
-  width: 100%;
+  width: auto;
   max-width: 128px;
   border-radius: 50%;
   border: 2px solid #00FF00;
@@ -129,7 +129,7 @@ main{
   align-items: center;
 }
 
-.space {
+.space-in{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,30 +168,22 @@ main{
   color: var(--text-color);
 }
 
-.down img {
-  width: 100%;
-  max-width: 128px;
-  border-radius: 50%;
-}
-
-.uno {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.uno h3{
-  font-size: 18px;
-}
-
-.uno p {
-  font-size: 14px;
-}
-
 .duo {
   display: flex;
   flex-direction: column;
   gap: 11px;
+}
+
+.duo h3 {
+  font-size: 18px;
+}
+
+.duo p {
+  font-size: 14px;
+}
+
+.duo span {
+  font-size: 16px;
 }
 
 .duo-1{
@@ -199,10 +191,14 @@ main{
   gap: 10px;
 }
 
-.teste {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
+.duo-1 span {
+  font-size: 14px;
+}
+
+.down-img img {
+  width: auto;
+  max-width: 128px;
+  border-radius: 50%;
 }
 
 .links {
@@ -273,20 +269,11 @@ main{
   padding-bottom: 20px;
 }
 
-/*
-.technologies table {
-  background: var(--bg-techs);
-  font-size: 10px;
-  font-weight: bold;
-  color: black;
-  border-radius: 10px;
-}
-*/
-
 .line1{
   display: flex;
   gap: 15px;
   justify-content: center;
+  align-items: center;
 }
 
 .line1 span {
@@ -296,8 +283,8 @@ main{
   font-weight: bold;
   border-radius: 20px;
   padding: 6px 7px;
-  width: 100%;
-  max-width: 86px;
+  width: auto;
+  min-width: 86px;
   text-align: center;
 }
 
@@ -305,6 +292,7 @@ main{
   display: flex;
   gap: 15px;
   justify-content: center;
+  align-items: center;
 }
 
 .line2 span {
@@ -314,8 +302,8 @@ main{
   font-weight: bold;
   border-radius: 20px;
   padding: 6px 7px;
-  width: 100%;
-  max-width: 86px;
+  width: auto;
+  min-width: 86px;
   text-align: center;
 }
 
@@ -323,6 +311,7 @@ main{
   display: flex;
   gap: 15px;
   justify-content: center;
+  align-items: center;
 }
 
 .line3 span {
@@ -332,8 +321,8 @@ main{
   font-weight: bold;
   border-radius: 20px;
   padding: 6px 7px;
-  width: 100%;
-  max-width: 86px;
+  width: auto;
+  min-width: 86px;
   text-align: center;
 }
 
