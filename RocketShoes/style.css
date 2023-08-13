@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --button: #FF0000;
+  --main-background:  #C4C4C4;
+  --background: #E5E5E5;
+  --text: #000;
+  --footer: #000;
+  --text-description: #9C9696;
+}
+
+header {
+  margin: 39px 60px;
+  position: fixed;
+}
+
+body {
+  background: var(--background);
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  margin-right: 90px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+ul li {
+  padding: 20px;
+}
+
+ul li:hover {
+  background: white;
+  border-radius: 30px;
+}
+
+ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--text);
+  font-weight: 700;
+}
+
+#pesquisar {
+  border: none;
+  font-size: 18px;
+  background: transparent;
+}
+
+.box-search {
+  margin: 0 82px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background: white;
+  height: 45px;
+  padding: 15px 13px;
+}
+
+.box-search img {
+  cursor: pointer;
+}
+
+#pesquisar:focus-visible {
+    outline: none;
+}
+
+#icon-bag {
+  cursor: pointer;
+}
+
+aside {
+  padding: 190px 40px 357px 111px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside h1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  font-size: 60px;
+}
+
+aside p {
+  width: 342px;
+  margin-top: 21px;
+  font-size: 16px;
+  color: var(--text-description);
+  font-weight: 700;
+}
+
+aside h2 {
+  font-size: 40px;
+  padding: 21px 0px 31px 0px;
+}
+
+aside button {
+  background: var(--button);
+  border: none;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 24px;
+  width: 274px;
+  height: 90px;
+}
+
+aside button:hover {
+  cursor: pointer;
+  background: rgb(196, 0, 0);
+} 
+
+main {
+  background: var(--main-background);
+  width: 100%;
+  padding: 0 18px;
+}
+
+#tenis-1-ampliado {
+  display: block;
+  margin: 175px auto 0;
+}
+
+.tenis {
+  display: flex;
+  gap: 37px;
+}
+
+#tenis-1-galeria {
+  width: 220.514px;
+  height: 182.8px;
+}
+
+#tenis-2-galeria {
+  width: 210px;
+  height: 182.8px;
+}
+
+#tenis-3-galeria {
+  width: 220px;
+  height: 182.8px;
+}
